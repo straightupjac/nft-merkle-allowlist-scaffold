@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import MuiNextLink from '@components/MuiNextLink';
+import { Stack } from '@mui/material';
 
 export default function Home() {
   return (
@@ -17,33 +18,25 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Created by <code className={styles.code}><a href="https://twitter.com/straightupjac" target="_blank" rel="noreferrer">@straightupjac</a></code>
-          <br />
-          Inspired by <MuiNextLink href="https://github.com/scaffold-eth/scaffold-eth/tree/buyer-mints-nft" target="_blank">Scaffold-eth</MuiNextLink>
-          <br />
-          <br />
-          Get started by editing{' '}
-          <code className={styles.code}>contracts/contracts/SampleNFT.sol</code>
+          <Stack spacing={1}>
+            <p>
+              Bootstrap an NFT minting site with merkle whitelists.
+            </p>
+            <p>
+            Created by <code className={styles.code}><a href="https://twitter.com/straightupjac" target="_blank" rel="noreferrer">@straightupjac</a></code>, inspired by <MuiNextLink href="https://github.com/scaffold-eth/scaffold-eth/tree/buyer-mints-nft" target="_blank">Scaffold-eth</MuiNextLink>
+            </p>
+          </Stack>
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" target="_blank" rel="noreferrer" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://github.com/straightupjac/nft-merkle-whitelist-scaffold/tree/main/contracts" target="_blank" rel="noreferrer" className={styles.card}>
+            <h2>Contract Setup&rarr;</h2>
+            <p>Set up your ERC721 contract, merkle whitelist and deploy.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" target="_blank" rel="noreferrer" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            target="_blank" rel="noreferrer"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="https://github.com/straightupjac/nft-merkle-whitelist-scaffold/tree/main/web" target="_blank" rel="noreferrer" className={styles.card}>
+            <h2>Web Setup&rarr;</h2>
+            <p>Set up your web interface.</p>
           </a>
 
           <a
@@ -53,7 +46,17 @@ export default function Home() {
           >
             <h2>Deploy &rarr;</h2>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Instantly deploy your Next.js to a public URL with Vercel.
+            </p>
+          </a>
+          <a
+            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            target="_blank" rel="noreferrer"
+            className={styles.card}
+          >
+            <h2>Feedback &rarr;</h2>
+            <p>
+              Noticed an issue? Create an issue, open a PR or reach out to me <a href="https://twitter.com/straightupjac" target="_blank" rel="noreferrer">@straightupjac</a>
             </p>
           </a>
         </div>
