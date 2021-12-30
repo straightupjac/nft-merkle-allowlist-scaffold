@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css';
 import MuiNextLink from '@components/core-components/MuiNextLink';
 import { Container, Stack } from '@mui/material';
 import GetStarted from '@components/GetStarted';
+import Connect from '@components/web3/connect';
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
             </p>
           </Stack>
         </p>
+        <Connect />
         <GetStarted />
       </main>
     </Container>

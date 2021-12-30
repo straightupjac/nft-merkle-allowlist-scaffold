@@ -8,6 +8,11 @@ Deployed to [nextjs-mui5.vercel.app](https://nextjs-mui5.vercel.app/)
  yarn add express-redis-cache
  yarn add merkletreejs
  yarn add keccak256
+ yarn add @web3-react/core
+ yarn add @web3-react/injected-connector
+ yarn add @web3-react/walletconnect-connector
+ yarn add @web3-react/walletlink-connector
+ yarn add styled-components
 ```
 
 ## Getting Started
