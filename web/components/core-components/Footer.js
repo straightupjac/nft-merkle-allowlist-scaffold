@@ -10,7 +10,6 @@ const Footer = () => {
   <Box component="footer" alignItems="center" className={styles.footer} sx={{ py: 5, px: 4 }}>
       <Stack
         direction="row"
-        justifyContent="center"
         alignItems="center"
         spacing={4}
       >

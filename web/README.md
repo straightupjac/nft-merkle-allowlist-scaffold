@@ -1,7 +1,14 @@
-# 🧰 NFT Minter
+# 🖌️ NFT Minter
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). MUI5 boilerplate from [nextjs-mui5](https://github.com/straightupjac/nextjs-mui5)
 
 Deployed to [nextjs-mui5.vercel.app](https://nextjs-mui5.vercel.app/)
+## Dependencies
+```
+ yarn add cors
+ yarn add express-redis-cache
+ yarn add merkletreejs
+ yarn add keccak256
+```
 
 ## Getting Started
 

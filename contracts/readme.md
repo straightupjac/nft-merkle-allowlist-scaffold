@@ -1,4 +1,4 @@
-# contracts
+# 🧰 contracts
 ## Prerequisites
 1. Have access to the public and private key to your Ethereum account.
 2. Have an alchemy account set-up

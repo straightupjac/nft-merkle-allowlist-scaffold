@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css';
 
 const GetStarted = () => {
   return (
-    <Container width="100%" justifyContent="center">
+    <Container width="100%">
       <Grid container justifyContent="center" alignItems="center">
         <a href="https://github.com/straightupjac/nft-merkle-whitelist-scaffold/tree/main/contracts" target="_blank" rel="noreferrer" className={styles.card}>
           <h2>Contract Setup&rarr;</h2>
