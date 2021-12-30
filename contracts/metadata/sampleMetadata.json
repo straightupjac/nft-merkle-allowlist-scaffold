@@ -1,11 +1,11 @@
 {
   "name": "Cool NFT",
-  "image": "",
-  "description": "",
+  "image": "https://gateway.pinata.cloud/ipfs/QmNs9kNhW9CWjFWBsczd5yegvSHgYDB87q2iek6Fy26268",
+  "description": "NFT Minting with Merkle whitelists scaffold.",
   "attributes": [
     {
-      "trait_type": "Age",
-      "value": "21"
+      "trait_type": "Creator",
+      "value": "straightupjac"
     }
   ]
 }
