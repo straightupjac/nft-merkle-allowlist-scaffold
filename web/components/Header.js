@@ -48,7 +48,7 @@ const Header = () => {
       </HideOnScroll>
       <Offset id="back-to-top-anchor" />
       <BackToTop>
-        <Fab color="secondary" size="large" aria-label="back to top">
+        <Fab color="primary" size="large" aria-label="back to top">
           <KeyboardArrowUp />
         </Fab>
       </BackToTop>

@@ -1,14 +1,14 @@
+import { Container, Grid } from '@mui/material';
 import styles from '../styles/Home.module.css';
 
 const GetStarted = () => {
   return (
-    <>
-      <div className={styles.grid}>
+    <Container width="100%" justifyContent="center">
+      <Grid container justifyContent="center" alignItems="center">
         <a href="https://github.com/straightupjac/nft-merkle-whitelist-scaffold/tree/main/contracts" target="_blank" rel="noreferrer" className={styles.card}>
           <h2>Contract Setup&rarr;</h2>
           <p>Set up your ERC721 contract, merkle whitelist and deploy.</p>
         </a>
-
         <a href="https://github.com/straightupjac/nft-merkle-whitelist-scaffold/tree/main/web" target="_blank" rel="noreferrer" className={styles.card}>
           <h2>Web Setup&rarr;</h2>
           <p>Set up your web interface.</p>
@@ -34,8 +34,8 @@ const GetStarted = () => {
             Noticed an issue? Create an issue, open a PR or reach out to me <a href="https://twitter.com/straightupjac" target="_blank" rel="noreferrer">@straightupjac</a>
           </p>
         </a>
-      </div>
-    </>
+      </Grid>
+    </Container>
 );
 }
 
