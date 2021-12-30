@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import MuiNextLink from '@components/MuiNextLink';
+import MuiNextLink from '@components/core-components/MuiNextLink';
 import { Container, Stack } from '@mui/material';
 import GetStarted from '@components/GetStarted';
 
@@ -15,7 +15,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          NFT Lazy Minting with Merkle Whitelist
+          NFT Lazy Minting with Merkle Whitelist Web3 Scaffold
         </h1>
 
         <p className={styles.description}>
