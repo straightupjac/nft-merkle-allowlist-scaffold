@@ -3,7 +3,7 @@ import Container from "@mui/material/Container";
 import Toolbar from "@mui/material/Toolbar";
 import { styled } from "@mui/system";
 import IconButton from "@mui/material/IconButton"
-import SportsHandballIcon from '@mui/icons-material/SportsHandball';
+import BubbleChartTwoToneIcon from '@mui/icons-material/BubbleChartTwoTone';
 import MuiNextLink from "@components/MuiNextLink";
 import Navbar from '@components/Navbar'
 import SideDrawer from "@components/SideDrawer";
@@ -31,7 +31,7 @@ const Header = () => {
             >
               <IconButton edge="start" aria-label="home">
               <MuiNextLink activeClassName="active" href='/'>
-                <SportsHandballIcon
+                <BubbleChartTwoToneIcon
                   sx={{
                     color: (theme) => theme.palette.primary,
                   }}
@@ -39,7 +39,7 @@ const Header = () => {
                 />
               </MuiNextLink>
             </IconButton>
-              This is your nav bar. Add links, logo etc.
+              This is your nav bar. Add links to pages, logo etc.
               <Navbar navLinks={navLinks} />
               <SideDrawer navLinks={navLinks} />
             </Container>
