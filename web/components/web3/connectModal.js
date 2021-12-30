@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Stack from '@mui/material/Stack';
 
 export default function ConnectModal(props) {
-  const { isModalVisible, handleClose, handleLoginClick, setOpen } = props;
+  const { isModalVisible, handleClose, handleLoginClick } = props;
   return (
     <>
       <Modal
