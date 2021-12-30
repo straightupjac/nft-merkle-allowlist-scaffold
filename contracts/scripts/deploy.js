@@ -4,7 +4,7 @@ async function main() {
 
   // Start deployment, returning a promise that resolves to a contract object
   const sampleNFT = await SampleNFT.deploy(
-    "", // baseURI include the /
+    "https://gateway.pinata.cloud/ipfs/QmatiFzXm7PoBeNtEz9WgDuMBwJqbRAECs9YG8kdkGzauQ/", // baseURI include the /
     "" // collectionURI
   );
   console.log("Contract deployed to address:", sampleNFT.address)
