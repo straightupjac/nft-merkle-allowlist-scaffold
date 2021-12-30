@@ -1,0 +1,11 @@
+{
+  "name": "Cool NFT",
+  "image": "",
+  "description": "",
+  "attributes": [
+    {
+      "trait_type": "Age",
+      "value": "21"
+    }
+  ]
+}

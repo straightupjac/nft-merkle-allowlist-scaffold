@@ -1,0 +1,16 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomiclabs/hardhat-etherscan": "^2.1.8",
+    "@openzeppelin/contracts": "^4.4.1",
+    "hardhat": "^2.7.1"
+  },
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.1.9",
+    "@nomiclabs/hardhat-ethers": "^2.0.3",
+    "@openzeppelin/contracts-upgradeable": "^4.4.1",
+    "dotenv": "^10.0.0",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.2.27"
+  }
+}

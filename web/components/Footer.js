@@ -1,5 +1,4 @@
 import Box from "@mui/material/Box";
-import Image from "next/image";
 import styles from '@styles/Home.module.css';
 import Typography from '@mui/material/Typography';
 import MuiNextLink from '@components/MuiNextLink';
