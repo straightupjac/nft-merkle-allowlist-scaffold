@@ -1,6 +1,5 @@
 import { Button, Card, CardActions, CardContent, Input, Typography } from '@mui/material';
 import Image from 'next/image';
-import { useCallback } from 'react';
 
 const MintNFTCard = ({title, description, action, canMint, showNumToMint, setNumToMint, mintStatus}) => {
   const handleChange = (event) => {
