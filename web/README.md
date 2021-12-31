@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 Deployed to [nextjs-mui5.vercel.app](https://nextjs-mui5.vercel.app/)
 
 ## Prerequisites
-1. Have access to a deployed ERC721 smart contract and its contract abi information.
+1. Have access to a deployed ERC721 smart contract and its contract abi information. Head over to [`/contracts`](/contracts) if you don't have one set up.
 2. Have an infura account set-up (the free one works!)
 
 Make a copy of `.sample-env` and fill it out.
@@ -23,6 +23,17 @@ Make sure to install all the dependencies. These ones sometimes require you to e
  yarn add @web3-react/walletlink-connector
  yarn add styled-components
 ```
+
+## Set up Contract ABI
+In `web/data/` you should have a file containing your deployed ERC721 contract's ABI. You can replace `SampleNFT.json` with the abi in the following format:
+```json
+{
+  "abi": {...}
+}
+```
+If you followed the steps in [`contracts`](/contracts), you will have a `SampleNFT.json` (or whatever your NFT contract is named) in the [`contracts/artifacts/contracts`](/contracts/artifacts/contracts) directory. Copy and paste that entire file into `web/data`.
+
+If you changed the name of your NFT contract, make sure you update the paths in [`web/pages/utils/_web3.js`](/web/pages/utils/_web3.js).
 
 ## Set up your whitelists
 In order for your merkle proofs to work properly, you have to keep `web/data/giftlist.json` and `web/data/whitelist.json` up to date with the merkle roots set in the smart contract. The easiest way to do this is to keep the front-end whitelists the same as in the `contract/whitelist` directory and run the respective set whitelists scripts whenever you make changes to the whitelists.

@@ -66,6 +66,9 @@ www.rinkeby.etherscan.io/address/[DEPLOYED_CONTRACT_ADDRESS]
 ```
 
 You should update your `.env`'s `CONTRACT_ADDRESS` to be your newly deployed contract address.
+
+If you changed the name of your NFT contract, make sure you update the paths in your scripts [`contracts/scripts`](/contracts/scripts).
+
 ## Verify Your Contract
 Verifying your contract is important for building trust. For transparency to your users, you should always verify your smart contracts so users can easily inspect the contracts they are interacting with.
 
@@ -90,3 +93,5 @@ Edit `whitelist/giftlist.json` and `whitelist/whitelist.json` to include the add
 node scripts/setWhitelistMerkleRoot.js
 node scripts/setGiftMerkleRoot.js
 ```
+# Done?
+Are you ready to build the front-end? Head over to [`web`](/web).
