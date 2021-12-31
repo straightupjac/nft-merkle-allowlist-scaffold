@@ -161,9 +161,10 @@ contract SampleNFT is ERC721URIStorage, Ownable, ReentrancyGuard{
         canMint(numberOfTokens)
         nonReentrant
     {
-        _mint(msg.sender, publicMintId);
-        publicMintId++;
-        claimed[msg.sender] = true;
+        for (uint256 i = 0; i < numberOfTokens; i++) {
+            _mint(msg.sender, publicMintId);
+            publicMintId++;
+        }
     }
 
     // ============ PUBLIC READ-ONLY FUNCTIONS ============

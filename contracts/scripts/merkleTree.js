@@ -22,5 +22,5 @@ const generateWhitelistRoot = () => {
 
 module.exports = { generateGiftRoot, generateWhitelistRoot };
 
-generategiftRoot()
-generateReindeerRoot()
+generateGiftRoot()
+generateWhitelistRoot()
