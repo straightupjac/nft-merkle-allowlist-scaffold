@@ -8,9 +8,10 @@ import { useWeb3React } from '@web3-react/core';
 import { abridgeAddress, injected, useENSName, walletConnect, walletlink } from '@pages/utils/_web3';
 import ConnectModal from "@components/web3/connectModal";
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import { Box } from "@mui/material";
 
 export default function Connect() {
-  const { activate, deactivate, active, account, library } = useWeb3React();
+  const { activate, deactivate, chainId, active, account, library } = useWeb3React();
   const router = useRouter();
 
   // for the modal
@@ -59,7 +60,7 @@ export default function Connect() {
   const ENSName = useENSName(library, account);
 
   return (
-    <div>
+    <Box sx={{textAlign: 'center'}}>
     {!active ? (
       <CustomButton variant="contained"
         disableElevation
@@ -115,7 +116,8 @@ export default function Connect() {
       handleLoginClick={handleLoginClick}
       handleClose={handleClose}
     />
-    </ div>
+    {active && chainId !== 4 && <p>Please connect to Rinkeby for this demo. </p>}
+    </ Box>
   )
 }
 

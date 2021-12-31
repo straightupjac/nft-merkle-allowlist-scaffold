@@ -1,7 +1,7 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/Users/jaclynchan/Documents/code/nft-minting/contracts/contracts/SampleNFT.sol": {
+    "/Users/jaclynchan/Documents/code/nft-merkle-whitelist-scaffold/contracts/contracts/SampleNFT.sol": {
       "lastModificationDate": 1640894125569,
       "contentHash": "6dbf912d76592cb75bbea88317fce70e",
       "sourceName": "contracts/SampleNFT.sol",
@@ -43,7 +43,7 @@
         "SampleNFT"
       ]
     },
-    "/Users/jaclynchan/Documents/code/nft-minting/contracts/node_modules/@openzeppelin/contracts/interfaces/IERC20.sol": {
+    "/Users/jaclynchan/Documents/code/nft-merkle-whitelist-scaffold/contracts/node_modules/@openzeppelin/contracts/interfaces/IERC20.sol": {
       "lastModificationDate": 1640893574823,
       "contentHash": "d151fbfe7939989b9acf22797b32058b",
       "sourceName": "@openzeppelin/contracts/interfaces/IERC20.sol",
@@ -78,7 +78,7 @@
       ],
       "artifacts": []
     },
-    "/Users/jaclynchan/Documents/code/nft-minting/contracts/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
+    "/Users/jaclynchan/Documents/code/nft-merkle-whitelist-scaffold/contracts/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
       "lastModificationDate": 1640893574862,
       "contentHash": "9c54c6c065d9e590fdcdd72c451425b9",
       "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
@@ -113,7 +113,7 @@
         "Strings"
       ]
     },
-    "/Users/jaclynchan/Documents/code/nft-minting/contracts/node_modules/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol": {
+    "/Users/jaclynchan/Documents/code/nft-merkle-whitelist-scaffold/contracts/node_modules/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol": {
       "lastModificationDate": 1640893576934,
       "contentHash": "580a443491d9d70eb064b0130fc3cd01",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
@@ -150,7 +150,7 @@
         "ERC721URIStorage"
       ]
     },
-    "/Users/jaclynchan/Documents/code/nft-minting/contracts/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+    "/Users/jaclynchan/Documents/code/nft-merkle-whitelist-scaffold/contracts/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
       "lastModificationDate": 1640893574823,
       "contentHash": "8398972af73b4e9e5ff3b31cad86234f",
       "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
@@ -187,7 +187,7 @@
         "Ownable"
       ]
     },
-    "/Users/jaclynchan/Documents/code/nft-minting/contracts/node_modules/@openzeppelin/contracts/security/ReentrancyGuard.sol": {
+    "/Users/jaclynchan/Documents/code/nft-merkle-whitelist-scaffold/contracts/node_modules/@openzeppelin/contracts/security/ReentrancyGuard.sol": {
       "lastModificationDate": 1640893574846,
       "contentHash": "92f9448b23a90ea3bb932ee55cc3ccce",
       "sourceName": "@openzeppelin/contracts/security/ReentrancyGuard.sol",
@@ -222,7 +222,7 @@
         "ReentrancyGuard"
       ]
     },
-    "/Users/jaclynchan/Documents/code/nft-minting/contracts/node_modules/@openzeppelin/contracts/utils/cryptography/MerkleProof.sol": {
+    "/Users/jaclynchan/Documents/code/nft-merkle-whitelist-scaffold/contracts/node_modules/@openzeppelin/contracts/utils/cryptography/MerkleProof.sol": {
       "lastModificationDate": 1640893576285,
       "contentHash": "0b24fe01129b29655a0f7968bfc80db3",
       "sourceName": "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol",
@@ -257,7 +257,7 @@
         "MerkleProof"
       ]
     },
-    "/Users/jaclynchan/Documents/code/nft-minting/contracts/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+    "/Users/jaclynchan/Documents/code/nft-merkle-whitelist-scaffold/contracts/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
       "lastModificationDate": 1640893576251,
       "contentHash": "302d9755e46bc69d7058b0cbe7185e37",
       "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
@@ -292,7 +292,7 @@
         "IERC20"
       ]
     },
-    "/Users/jaclynchan/Documents/code/nft-minting/contracts/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
+    "/Users/jaclynchan/Documents/code/nft-merkle-whitelist-scaffold/contracts/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
       "lastModificationDate": 1640893576254,
       "contentHash": "ead7082e39cf31875ff89b22f473500d",
       "sourceName": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
@@ -335,7 +335,7 @@
         "ERC721"
       ]
     },
-    "/Users/jaclynchan/Documents/code/nft-minting/contracts/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
+    "/Users/jaclynchan/Documents/code/nft-merkle-whitelist-scaffold/contracts/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
       "lastModificationDate": 1640893576254,
       "contentHash": "27d219ec6f69478d065fdbfa7931da68",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
@@ -372,7 +372,7 @@
         "IERC721"
       ]
     },
-    "/Users/jaclynchan/Documents/code/nft-minting/contracts/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
+    "/Users/jaclynchan/Documents/code/nft-merkle-whitelist-scaffold/contracts/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
       "lastModificationDate": 1640893576254,
       "contentHash": "592df588492d45fdcf46b3cb608c0fbf",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
@@ -407,7 +407,7 @@
         "IERC721Receiver"
       ]
     },
-    "/Users/jaclynchan/Documents/code/nft-minting/contracts/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol": {
+    "/Users/jaclynchan/Documents/code/nft-merkle-whitelist-scaffold/contracts/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol": {
       "lastModificationDate": 1640893576936,
       "contentHash": "efbc0d15b80a74e34dbe8da0f3e879bb",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
@@ -444,7 +444,7 @@
         "IERC721Metadata"
       ]
     },
-    "/Users/jaclynchan/Documents/code/nft-minting/contracts/node_modules/@openzeppelin/contracts/utils/Address.sol": {
+    "/Users/jaclynchan/Documents/code/nft-merkle-whitelist-scaffold/contracts/node_modules/@openzeppelin/contracts/utils/Address.sol": {
       "lastModificationDate": 1640893574861,
       "contentHash": "4cff8b2ea0d958750786b4e3ca308445",
       "sourceName": "@openzeppelin/contracts/utils/Address.sol",
@@ -479,7 +479,7 @@
         "Address"
       ]
     },
-    "/Users/jaclynchan/Documents/code/nft-minting/contracts/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+    "/Users/jaclynchan/Documents/code/nft-merkle-whitelist-scaffold/contracts/node_modules/@openzeppelin/contracts/utils/Context.sol": {
       "lastModificationDate": 1640893574862,
       "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
@@ -514,7 +514,7 @@
         "Context"
       ]
     },
-    "/Users/jaclynchan/Documents/code/nft-minting/contracts/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
+    "/Users/jaclynchan/Documents/code/nft-merkle-whitelist-scaffold/contracts/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
       "lastModificationDate": 1640893576285,
       "contentHash": "0e7db055ce108f9da7bb6686a00287c0",
       "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
@@ -551,7 +551,7 @@
         "ERC165"
       ]
     },
-    "/Users/jaclynchan/Documents/code/nft-minting/contracts/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
+    "/Users/jaclynchan/Documents/code/nft-merkle-whitelist-scaffold/contracts/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
       "lastModificationDate": 1640893576286,
       "contentHash": "03e6768535ac4da0e9756f1d8a4a018a",
       "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",

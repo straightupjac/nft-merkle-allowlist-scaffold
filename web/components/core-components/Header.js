@@ -15,8 +15,8 @@ import BackToTop from "@components/core-components/BackToTop";
 const Offset = styled("div")(({ theme }) => theme.mixins.toolbar);
 
 export const navLinks = [
-  { title: 'home', path: '/' },
-  { title: 'about', path: '/about'},
+  { title: 'home', path: '/#home' },
+  { title: 'demo', path: '/#demo'},
 ];
 
 const Header = () => {
