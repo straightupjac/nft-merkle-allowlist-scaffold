@@ -19,3 +19,6 @@ Inspiration for this came from many different projects. Some notable ones includ
 - Anish Agnihotri's [ERC20 merkle airdrop scaffold](https://github.com/Anish-Agnihotri/merkle-airdrop-starter)
 ## Feedback
 Have issues? Feel free to make an issue, open a pull request or reach out!
+
+## Disclaimer
+These smart contracts are not audited so use at your own risk.
