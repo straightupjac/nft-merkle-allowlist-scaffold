@@ -9,8 +9,8 @@ Play around with the deployed test app [here](https://nft-merkle-whitelist.verce
 
 To build your own NFT mint page with merkle whitelist:
 1. Clone this repo
-2. Head to [`contracts`](https://github.com/straightupjac/nft-merkle-whitelist-scaffold/tree/main/contracts) `README.md` to set up your contracts
-3. Head to [`web`](https://github.com/straightupjac/nft-merkle-whitelist-scaffold/tree/main/web) `README.md` to set up your front-end
+2. Head to [contracts](https://github.com/straightupjac/nft-merkle-whitelist-scaffold/tree/main/contracts) `README.md` to set up your contracts
+3. Head to [web](https://github.com/straightupjac/nft-merkle-whitelist-scaffold/tree/main/web) `README.md` to set up your front-end
 4. Deploy your web-app using vercel
 
 ## Inspiration
