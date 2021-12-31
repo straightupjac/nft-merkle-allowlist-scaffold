@@ -3,7 +3,6 @@ import styles from '../styles/Home.module.css';
 import MuiNextLink from '@components/core-components/MuiNextLink';
 import { Container, Stack } from '@mui/material';
 import GetStarted from '@components/GetStarted';
-import Connect from '@components/web3/connect';
 import MintNFT from '@components/web3/mint-nft';
 
 export default function Home() {
@@ -30,7 +29,6 @@ export default function Home() {
             </p>
           </Stack>
         </p>
-        <Connect />
         <GetStarted />
         <MintNFT />
       </main>

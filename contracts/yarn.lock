@@ -3643,6 +3643,11 @@ swarm-js@^0.1.40:
     tar "^4.0.2"
     xhr-request "^1.0.1"
 
+swr@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/swr/-/swr-1.1.2.tgz#9f3de2541931fccf03c48f322f1fc935a7551612"
+  integrity sha512-UsM0eo5T+kRPyWFZtWRx2XR5qzohs/LS4lDC0GCyLpCYFmsfTk28UCVDbOE9+KtoXY4FnwHYiF+ZYEU3hnJ1lQ==
+
 tar@^4.0.2:
   version "4.4.19"
   resolved "https://registry.npmjs.org/tar/-/tar-4.4.19.tgz"

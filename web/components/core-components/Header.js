@@ -11,6 +11,8 @@ import HideOnScroll from "@components/core-components/HideOnScroll";
 import Fab from "@mui/material/Fab";
 import KeyboardArrowUp from "@mui/icons-material/KeyboardArrowUp";
 import BackToTop from "@components/core-components/BackToTop";
+import Connect from "@components/web3/connect";
+import { Stack } from "@mui/material";
 
 const Offset = styled("div")(({ theme }) => theme.mixins.toolbar);
 
@@ -22,30 +24,32 @@ export const navLinks = [
 const Header = () => {
   return (
     <>
-    <HideOnScroll>
-        <AppBar position="fixed" color="transparent" elevation={0}>
+    {/* <HideOnScroll> */}
+        <AppBar position="fixed" sx={{ backgroundColor: '#FFFFFF' }} elevation={0}>
           <Toolbar>
             <Container
               maxWidth="lg"
               sx={{ display: `flex`, justifyContent: `space-between`, alignItems: 'center' }}
             >
               <IconButton edge="start" aria-label="home">
-              <MuiNextLink activeClassName="active" href='/'>
-                <BubbleChartTwoToneIcon
-                  sx={{
-                    color: (theme) => theme.palette.primary,
-                  }}
-                  fontSize="large"
-                />
-              </MuiNextLink>
-            </IconButton>
-              This is your nav bar. Add links to pages, logo etc.
-              <Navbar navLinks={navLinks} />
-              <SideDrawer navLinks={navLinks} />
+                <MuiNextLink activeClassName="active" href='/'>
+                  <BubbleChartTwoToneIcon
+                    sx={{
+                      color: (theme) => theme.palette.primary,
+                    }}
+                    fontSize="large"
+                  />
+                </MuiNextLink>
+              </IconButton>
+              <Stack direction="row" alignItems='center'>
+                <Navbar navLinks={navLinks} />
+                <SideDrawer navLinks={navLinks} />
+                <Connect />
+              </Stack>
             </Container>
           </Toolbar>
         </AppBar>
-      </HideOnScroll>
+      {/* </HideOnScroll> */}
       <Offset id="back-to-top-anchor" />
       <BackToTop>
         <Fab color="primary" size="large" aria-label="back to top">
