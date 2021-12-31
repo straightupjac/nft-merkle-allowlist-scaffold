@@ -40,7 +40,7 @@ const Wallet = () => {
       try {
         const response = await axios.get(url);
         setDisplayTokens(Array(response.data.assets));
-        console.log(Array(response.data.assets)[0][0]);
+        console.log('result', Array(response.data.assets));
       } catch (err) {
         console.error(err);
       }
@@ -59,8 +59,8 @@ const Wallet = () => {
       {active && <div>
         {tokenBalance <= 0 && <p>You have no minted NFTs yet.</p>}
         {tokenBalance > 0 && <p>View your {tokenBalance} minted NFTs here:</p>}
-        {tokenBalance > 0 && displayTokens.map((tok, i) => {
-          const token = tok[0];
+        {tokenBalance > 0 && displayTokens && displayTokens[0].length > 0
+          && displayTokens[0].map((token, i) => {
           return <Stack
                   key={i}
                   paddingTop={4}
@@ -70,16 +70,16 @@ const Wallet = () => {
                   alignItems="center"
                 >
 
-                  {token.image_url ?
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img alt="nft" src={token.image_url} /> :
-                  <Image alt="nft" height={350} width={350} src={'/not-available.png'} /> }
-                  <p>Name: {token.name}</p>
-                  <p>Token id: {token.id}</p>
-                  <p>Metadata <a href={token.token_metadata} target="_blank" rel="noreferrer">link</a></p>
+                  {token?.image_url ?
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img alt="nft" src={token.image_url} /> :
+                    <p>Image not available yet</p> }
+                  <p>Name: {token?.name}</p>
+                  <p>Token id: {token?.id}</p>
+                  <p>Metadata <a href={token?.token_metadata} target="_blank" rel="noreferrer">link</a></p>
                 </Stack>
               })}
-        {tokenBalance > 0 && displayTokens.length === 0 && <p>Calling Opensea API. It may take a few minutes to retrieve your NFTs.</p>}
+        {tokenBalance > 0 && displayTokens && displayTokens[0].length === 0 && <p>Calling Opensea API. It may take a few minutes to retrieve your NFTs.</p>}
       </div>}
       </Stack>
     </Container>
