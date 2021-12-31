@@ -20,5 +20,9 @@ Inspiration for this came from many different projects. Some notable ones includ
 ## Feedback
 Have issues? Feel free to make an issue, open a pull request or reach out!
 
+## License
+[GNU GENERAL PUBLIC LICENSE
+](LICENSE)
+
 ## Disclaimer
 These smart contracts are not audited so use at your own risk.
