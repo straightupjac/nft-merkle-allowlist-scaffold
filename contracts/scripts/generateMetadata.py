@@ -15,7 +15,7 @@ def generateMetadata(jsonFolderPath):
     # whitelist
     for idx in range(26, 1000):
       data = {}
-      data['name'] = "whitelist #" + str(idx)
+      data['name'] = "whitelist #" + str(idx-25)
       data['image'] = baseURI
       data['description'] = "Describe your NFT. NFT mint with merkle whitelist scaffold"
       with open(jsonFolderPath+ str(idx) +'.json', 'w+', encoding='utf-8') as jsonf:
@@ -24,7 +24,7 @@ def generateMetadata(jsonFolderPath):
     # public
     for idx in range(1001, 6000):
       data = {}
-      data['name'] = "public mint #" + str(idx)
+      data['name'] = "public mint #" + str(idx-1000)
       data['image'] = baseURI
       data['description'] = "Describe your NFT. NFT mint with merkle whitelist scaffold"
       with open(jsonFolderPath+ str(idx) +'.json', 'w+', encoding='utf-8') as jsonf:
