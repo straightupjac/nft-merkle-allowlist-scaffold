@@ -3,6 +3,7 @@ import { useWeb3React } from "@web3-react/core";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { sampleNFT } from "./utils/_web3";
+import axios from 'axios';
 
 const Wallet = () => {
   const { active, account } = useWeb3React();
@@ -39,6 +40,7 @@ const Wallet = () => {
       try {
         const response = await axios.get(url);
         setDisplayTokens(Array(response.data.assets));
+        console.log(Array(response.data.assets)[0][0]);
       } catch (err) {
         console.error(err);
       }
@@ -54,25 +56,31 @@ const Wallet = () => {
       {!active && <p>
         Your wallet must be connected to view this page.
         </p>}
-      {active && <p>
+      {active && <div>
         {tokenBalance <= 0 && <p>You have no minted NFTs yet.</p>}
         {tokenBalance > 0 && <p>View your {tokenBalance} minted NFTs here:</p>}
-        {tokenBalance > 0 && displayTokens.map((token, i) => {
+        {tokenBalance > 0 && displayTokens.map((tok, i) => {
+          const token = tok[0];
           return <Stack
-              key={i}
-              paddingTop={4}
-              paddingBottom={4}
-              width={'100%'}
-              justifyContent="center"
-              alignItems="center"
-            >
-            {token.image_url ? <Image alt="nft" height={350} width={350} src={token.image_url} /> :
-            <Image alt="nft" height={350} width={350} src={'/not-available.png'} /> }
-            <p className="manifesto center">{token.name}</p>
-          </Stack>
-        })}
+                  key={i}
+                  paddingTop={4}
+                  paddingBottom={4}
+                  width={'100%'}
+                  justifyContent="center"
+                  alignItems="center"
+                >
+
+                  {token.image_url ?
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img alt="nft" src={token.image_url} /> :
+                  <Image alt="nft" height={350} width={350} src={'/not-available.png'} /> }
+                  <p>Name: {token.name}</p>
+                  <p>Token id: {token.id}</p>
+                  <p>Metadata <a href={token.token_metadata} target="_blank" rel="noreferrer">link</a></p>
+                </Stack>
+              })}
         {tokenBalance > 0 && displayTokens.length === 0 && <p>Calling Opensea API. It may take a few minutes to retrieve your NFTs.</p>}
-      </p>}
+      </div>}
       </Stack>
     </Container>
   )
