@@ -33,4 +33,4 @@ Have issues? Feel free to make an issue, open a pull request or reach out! If yo
 ](LICENSE)
 
 ## Disclaimer
-I'm new to web3 and started my web3 dev journey in Jan 2021 and these smart contracts are not audited so use at your own risk.
+I'm started my web3 dev journey in the last year and these smart contracts are not audited so use at your own risk. (if you notice anything though, please let me know!)
