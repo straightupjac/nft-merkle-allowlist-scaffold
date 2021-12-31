@@ -50,5 +50,6 @@ async function setBaseURI(baseURI) {
     })
 }
 
+// TODO: set your new base URI here
 const uri = "https://gateway.pinata.cloud/ipfs/QmapKEPakiuEAzYP2UXP4RYHP8c4dBUdTb12SvcSAeafgm/";
 setBaseURI(uri);
