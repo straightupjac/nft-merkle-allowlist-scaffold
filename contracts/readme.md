@@ -1,4 +1,6 @@
 # 🧰 contracts
+Deployed sample NFT contract can be viewed on [rinkeby.etherscan.io/address/0x0E7121b8aaEBd6F4fAbe13890E33d9E8fD0Fd345](https://rinkeby.etherscan.io/address/0x0E7121b8aaEBd6F4fAbe13890E33d9E8fD0Fd345#code)
+
 ## Prerequisites
 1. Have access to the public (public wallet address) and private key to your Ethereum account.
 2. Have an alchemy account set-up (the free one works!)
