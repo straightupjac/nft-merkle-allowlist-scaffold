@@ -43,12 +43,12 @@ async function setBaseURI(baseURI) {
           }
         }
       )
-      console.log(`setBaseURI is complete! Set root to ${root.toString('hex')}`);
+      console.log(`setBaseURI is complete! Set base uri to ${baseURI}`);
     })
     .catch((err) => {
       console.log(" Promise failed:", err)
     })
 }
 
-const uri = "";
+const uri = "https://gateway.pinata.cloud/ipfs/QmapKEPakiuEAzYP2UXP4RYHP8c4dBUdTb12SvcSAeafgm/";
 setBaseURI(uri);
