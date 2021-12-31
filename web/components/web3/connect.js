@@ -50,7 +50,7 @@ export default function Connect() {
   }
 
   const goToWallet = async () => {
-    router.push('/community/wallet');
+    router.push('/wallet');
   }
 
   const handleDisconnect = async () => {
