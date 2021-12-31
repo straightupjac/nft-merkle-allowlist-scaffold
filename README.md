@@ -1,5 +1,5 @@
 # 🖌️ nft-merkle-whitelist-scaffold
-Bootstrap an NFT minting site with merkle whitelists.
+Bootstrap an NFT minting site with merkle tree whitelists.
 
 
 Go to [nft-merkle-whitelist.vercel.app](https://nft-merkle-whitelist.vercel.app/) to see the latest deployment.
