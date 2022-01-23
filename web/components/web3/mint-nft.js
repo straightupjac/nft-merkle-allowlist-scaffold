@@ -103,7 +103,7 @@ const MintNFT = () => {
     }
     validateClaim();
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [giftProof])
+  }, [whitelistProof])
 
 
   const onMintGift = async () => {
