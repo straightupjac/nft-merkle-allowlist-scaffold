@@ -10,7 +10,7 @@ Deployed sample NFT contract can be viewed on [rinkeby.etherscan.io/address/0x0E
 ## Get Started
 Play around with the deployed test app [here](https://nft-merkle-demo.vercel.app/)
 
-To build your own NFT mint page with merkle allowlist:
+To build your own NFT mint page with merkle allowlists:
 1. Clone this repo
 2. Head to [contracts](https://github.com/straightupjac/nft-merkle-allowlist-scaffold/tree/main/contracts) `README.md` to set up your contracts
 3. Head to [web](https://github.com/straightupjac/nft-merkle-allowlist-scaffold/tree/main/web) `README.md` to set up your front-end
@@ -34,4 +34,4 @@ Have issues? Feel free to make an issue, open a pull request or reach out! If yo
 ](LICENSE)
 
 ## Disclaimer
-I'm started my web3 dev journey in the last year and these smart contracts are not audited so use at your own risk. (if you notice anything though, please let me know!)
+These smart contracts are not audited so use at your own risk. (if you notice anything though, please let me know!)
