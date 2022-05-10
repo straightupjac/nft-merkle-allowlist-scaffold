@@ -58,7 +58,7 @@ contract SampleNFT is ERC721URIStorage, Ownable, ReentrancyGuard{
     uint256 public giftMintId = 1;
 
     uint256 immutable public maxWhitelistId = 1000;
-    uint256 public whitelistId = 6;
+    uint256 public whitelistId = 26;
     uint256 public constant WHITELIST_SALE_PRICE = 0.01 ether;
 
     uint256 immutable public maxPublicMint = 6000;
